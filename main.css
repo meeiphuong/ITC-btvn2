@@ -1,0 +1,246 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body,html{
+
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(35deg, rgba(58,63,180,1) 5%, rgba(29,167,253,1) 52%, rgba(69,246,252,1) 84%);
+    background-repeat: repeat-x;
+    position: relative;
+
+    background-color: #E8E9E7;
+}
+
+.loggo_center-image{
+    display: flex;
+}
+.all{
+    width: 1170px;
+    margin: auto;
+}
+
+.center-image{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.loggo_center-text{
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    margin: auto;
+    
+}
+.center-text{
+    font-size: 20px;
+    width: 300px;
+    height: 100px;
+    color: #025732;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 25px;
+}
+.main{
+    display: flex;
+}
+.list{
+  
+    width: 100%;
+    position: absolute;
+    top:42%;
+    left: 0;
+  
+   
+  
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+ 
+}
+
+li{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 100% 0% 98% 2% / 78% 10% 90% 22%;
+    justify-content: space-between;
+    transform: rotate(8deg);
+    margin-left: 20px;
+    cursor: pointer;
+}
+ul.list_top {
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.list_top-he:hover{
+   background-color: #FECB04;
+}
+.text{
+    width: 120px;
+    padding: 10px;
+    -webkit-transform: rotate(352deg);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.text:hover{
+    
+}
+
+.content{
+    width: 400px;  
+    display: flex;
+    position: absolute;
+    top: -230%;
+    left: -50%;
+    display: none;
+    
+}
+.content::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    transform: rotate(351deg);
+    left: 0;
+    width: 300px;
+    height: 100px;
+
+}
+
+.list_hover:hover .content{
+    display: block;
+   
+
+}
+ul.content1 {
+  
+    transform: rotate(353deg);
+    margin-right: -90px;
+}
+.content-small{
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 47% 53% 98% 2% / 48% 41% 59% 52%;
+    background: linear-gradient(45deg, rgb(243 126 90) 32%, rgba(252,145,76,1) 52%, rgba(255,255,255,1) 84%);
+    -webkit-transform: rotate(352deg);
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 10px 5px #cec7c7 ;
+}
+
+p {
+    
+    font-size: 14px;
+    padding-top: 20px ;
+    transform: rotate(7deg);
+}
+a{
+    
+}
+.anh2{
+    position: absolute;
+    
+}
+
+.img{
+   
+    width: 1100px;
+    height: 550px;
+    margin-left: 10px;
+   
+}
+.main{
+    width:100%;
+   
+}
+.img_main{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    margin-left: 2.5%;
+    margin-top: 7%;
+    border: 13px solid white;
+    border-radius: 3px;
+}
+
+svg.svg-inline--fa.fa-cat {
+    font-size: 30px;
+    position: absolute;
+    color: #ffffff;
+    margin-left: 227px;
+    
+    cursor: pointer;
+    animation: rotate linear 2s infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.fa-light.fa-circle {
+    font: var(--fa-font-solid);
+    color: #f0f8ff00;
+    border: 1px solid white;
+    position: absolute;
+    margin-left: 220px;
+    font-size: 47px;
+    margin-top: -10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.anh2{
+  
+    margin-top: 10px;
+    width: 100px;
+}
+.khung {
+   
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -86px;
+    border-bottom: 150px solid #72b4fb;
+    
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 250px;
+    }
+.khung_1 {
+   
+    position: absolute;
+    margin-top: 29px;
+    border-bottom: 120px solid #0062fb;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 300px;
+}
+.text_end{
+    width: 100px;
+    height: 100px;
+}
+.text_end-small{
+    position: absolute;
+    width: 130px;
+    font-size: 26px;
+    color: white;
+    height: 100px;
+    margin-left: 80px;
+    font-family: 'Fraunces', serif;
+    margin-top: -45px;
+}
